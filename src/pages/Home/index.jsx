@@ -1,12 +1,10 @@
 import React from "react";
-import { Title } from "../../components/Title";
 
 import thumbNails from "../../data/thumbNails";
 
 export const HomePage = () => {
   return (
     <>
-      <Title clases="text-center" name="Home" />
       <div className="row pb-3">
         <div className="col">
           <div
@@ -56,6 +54,11 @@ export const HomePage = () => {
               <span className="visually-hidden">Next</span>
             </button>
           </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          <h2>Mejores proyectos</h2>
         </div>
       </div>
       <div className="row row-cols-1 row-cols-md-3 g-4">
