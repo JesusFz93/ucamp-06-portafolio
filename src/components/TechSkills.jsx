@@ -9,7 +9,7 @@ export const TechSkills = ({
 }) => {
   return (
     <>
-      <div key={id}>
+      <div key={id} className="pb-2">
         <span>{name}</span>
         <div className="progress">
           <div
