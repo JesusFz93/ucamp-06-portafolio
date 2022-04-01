@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "HTML5",
+      "color": "bg-danger",
+      "percentage": "88%",
+      "percentage_number": 88
+    },
+    {
+      "id": 2,
+      "name": "CSS3",
+      "color": "bg-primary",
+      "percentage": "75%",
+      "percentage_number": 75
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "color": "bg-warning",
+      "percentage": "95%",
+      "percentage_number": 95
+    },
+    {
+      "id": 4,
+      "name": "React JS",
+      "color": "bg-primary",
+      "percentage": "90%",
+      "percentage_number": 90
+    },
+    {
+      "id": 5,
+      "name": "Node JS",
+      "color": "bg-success",
+      "percentage": "90%",
+      "percentage_number": 90
+    },
+    {
+      "id": 6,
+      "name": "Mongo DB",
+      "color": "bg-success",
+      "percentage": "85%",
+      "percentage_number": 85
+    }
+  ]

@@ -1,11 +1,14 @@
 import React from "react";
 
-import thumbNails from "../../data/thumbNails";
+import topProjects from "../../data/topProjects";
+import techSkills from "../../data/techSkills";
+import { TechSkills } from "../../components/TechSkills";
+import { TopProjects } from "../../components/TopProjects";
 
 export const HomePage = () => {
   return (
     <>
-      <div className="row pb-3">
+      <div className="row">
         <div className="col">
           <div
             id="carouselExampleControls"
@@ -56,28 +59,37 @@ export const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col">
-          <h2>Mejores proyectos</h2>
-        </div>
-      </div>
-      <div className="row row-cols-1 row-cols-md-3 g-4">
-        {thumbNails.map((thumbNail) => (
-          <div className="col" key={thumbNail.id}>
-            <div className="card h-100">
-              <img
-                src={thumbNail.image}
-                className="card-img-top"
-                alt={thumbNail.title}
-              />
-              <div className="card-body">
-                <h5 className="card-title">{thumbNail.title}</h5>
-                <p className="card-text">{thumbNail.description}</p>
-              </div>
-            </div>
-          </div>
+      <section className="row pt-4">
+        <article className="col">
+          <header>
+            <h2>Mejores proyectos</h2>
+          </header>
+        </article>
+      </section>
+      <section className="row row-cols-1 row-cols-md-3 g-4">
+        {topProjects.map((topProject) => (
+          <TopProjects key={topProject.id} {...topProject} />
         ))}
-      </div>
+      </section>
+      <section className="row pt-4">
+        <article className="col">
+          <header>
+            <h2>Habilidades tecnicas</h2>
+          </header>
+        </article>
+      </section>
+      <section className="row pb-5">
+        <article className="col">
+          <div>
+            {techSkills.map((techSkill) => (
+              <TechSkills key={techSkill.id} {...techSkill} />
+            ))}
+          </div>
+        </article>
+      </section>
+      <section className="row">
+        <article className="col"></article>
+      </section>
     </>
   );
 };

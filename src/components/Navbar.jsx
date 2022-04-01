@@ -6,7 +6,7 @@ export const Navbar = ({ routes }) => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          Portfolio
+          JF Portfolio
         </Link>
         <button
           className="navbar-toggler"

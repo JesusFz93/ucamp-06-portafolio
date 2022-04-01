@@ -1,0 +1,42 @@
+[
+    {
+      "id": "1",
+      "title": "Landing de negocio",
+      "description": "Una pagina estatica hecha en HTML5 y CSS3, para la publicidad de un negocio de articulos personalizados",
+      "image":
+        "01-landing.png",
+      "link": "https://github.com/JesusFz93/UCamp-01-landing-de-negocio"
+    },
+    {
+      "id": "2",
+      "title": "CRUD",
+      "description": "Un sitio web donde se realiza un CRUD utilizando HTML5, CSS3 y JavaScript",
+      "image":
+        "02-crud.png",
+      "link": "https://github.com/JesusFz93/UCamp-02-crud"
+    },
+    {
+      "id": "3",
+      "title": "Dashboard",
+      "description": "En esta pagina web se utiliza JavaScript para realizar consumo de las siguients API's: Covid-19 y Chart.js",
+      "image":
+        "03-dashboard.png",
+      "link": "https://github.com/JesusFz93/UCamp-03-dashboard"
+    },
+    {
+      "id": "4",
+      "title": "Restaurant App",
+      "description": "Aplicacion hecha con la libreria React JS, para la gestion de un restaurante, aqui se despliega un menu, se hacen reservaciones y el uso de una api de mapas llamada Mapbox",
+      "image":
+        "04-restaurant.png",
+      "link": "https://github.com/JesusFz93/UCamp-04-restaurant"
+    },
+    {
+      "id": "5",
+      "title": "Ecommerce",
+      "description": "Aplicacion hecha con la libreria React JS, Node JS y Mongo DB, para la gestion, compra y venta de productos relacionadas a la tecnologia aplicada en hogares, negocios, etc.",
+      "image":
+        "05-ecommerce.png",
+      "link": "https://github.com/JesusFz93/ucamp-05-ecommerce-frontend"
+    }
+  ]
