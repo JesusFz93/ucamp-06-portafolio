@@ -10,4 +10,4 @@ Enlaces de interes para el proyecto.
 
 - Repositorio: https://github.com/JesusFz93/ucamp-06-portafolio
 
-- Aplicacion publicada: http://ucamp-05-ecommerce-frontend.herokuapp.com
+- Aplicacion publicada: https://jesusfz93.github.io/ucamp-06-portafolio
