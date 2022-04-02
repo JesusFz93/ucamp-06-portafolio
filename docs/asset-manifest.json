@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.26da9b10.css",
+    "main.js": "/static/js/main.93de6fc7.js",
+    "static/media/04-restaurant.png": "/static/media/04-restaurant.17a5089c6230050bd663.png",
+    "static/media/03-dashboard.png": "/static/media/03-dashboard.adff2ea82cb4706d2fb3.png",
+    "static/media/05-ecommerce.png": "/static/media/05-ecommerce.cbeb6284fbadcb9548d7.png",
+    "static/media/javascript.png": "/static/media/javascript.e42bd689746866e3b351.png",
+    "static/media/css.png": "/static/media/css.fc9f9f281f48a0b33704.png",
+    "static/media/html.png": "/static/media/html.2f779c788bc523441d5f.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.33b6ec2eac81e1ca85be.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "static/media/JesusFdz.jpg": "/static/media/JesusFdz.e83764f294a5e6716493.jpg",
+    "static/media/01-landing.png": "/static/media/01-landing.fb42e469171e7c37e9f9.png",
+    "static/media/02-crud.png": "/static/media/02-crud.a06b2c41aee91f257d5e.png",
+    "index.html": "/index.html",
+    "main.26da9b10.css.map": "/static/css/main.26da9b10.css.map",
+    "main.93de6fc7.js.map": "/static/js/main.93de6fc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26da9b10.css",
+    "static/js/main.93de6fc7.js"
+  ]
+}
