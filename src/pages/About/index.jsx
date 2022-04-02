@@ -137,7 +137,7 @@ export const AboutPage = () => {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    Ver las librerias...
+                    Ver / ocultar las librerias...
                   </button>
                 </h2>
                 <div
