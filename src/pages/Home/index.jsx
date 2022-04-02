@@ -13,7 +13,7 @@ import JF from "../../assets/images/JesusFdz.jpg";
 export const HomePage = () => {
   return (
     <>
-      <section className="row">
+      <section id="inicio" className="row">
         <article className="col">
           <div className="card mb-3">
             <div className="row g-0">
@@ -45,9 +45,7 @@ export const HomePage = () => {
                     </strong>
                   </p>
                   <p className="card-text">
-                    <small className="text-muted">
-                      Last updated 3 mins ago
-                    </small>
+                    <button className="btn btn-dark">Descargar CV</button>
                   </p>
                 </div>
               </div>
@@ -55,7 +53,7 @@ export const HomePage = () => {
           </div>
         </article>
       </section>
-      <main id="inicio" className="row pt-4">
+      <main className="row pt-4">
         <article className="col">
           <div
             id="carouselExampleControls"
@@ -331,14 +329,14 @@ export const HomePage = () => {
           </div>
         </article>
       </section>
-      <section className="row pt-3">
+      <section id="contact" className="row pt-3">
         <section className="col">
-          <h2 className="text-center">Formulario de contacto</h2>
+          <h2 className="text-center">Seccion de contacto</h2>
         </section>
       </section>
 
       <section className="row d-flex justify-content-center">
-        <article className="col-md-3">
+        <article className="col-md-5">
           <form>
             <input type="text" className="form-control" placeholder="Asunto" />
             <br />
@@ -350,6 +348,34 @@ export const HomePage = () => {
             <br />
             <button className="btn btn-success">Enviar mensaje</button>
           </form>
+        </article>
+      </section>
+
+      <section className="row  pt-5">
+        <article className="col d-flex justify-content-center">
+          <a
+            href="https://github.com/JesusFz93"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <i class="bi bi-github fs-1"></i>
+          </a>
+
+          <a
+            href="https://www.facebook.com/jesusfdz93"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <i class="bi bi-facebook fs-1"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/feed"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <i class="bi bi-linkedin fs-1"></i>
+          </a>
         </article>
       </section>
     </>

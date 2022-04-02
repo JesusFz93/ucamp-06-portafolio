@@ -15,13 +15,11 @@ export const TechSkills = ({
           <div
             className={`progress-bar bg-primary ${color}`}
             role="progressbar"
-            style={{ width: percentage }}
-            aria-valuenow={percentage_number}
+            style={{ width: "100%" }}
+            aria-valuenow={100}
             aria-valuemin={0}
             aria-valuemax={100}
-          >
-            {percentage}
-          </div>
+          ></div>
         </div>
       </div>
     </>
