@@ -16,14 +16,15 @@ export const AboutPage = () => {
               </div>
               <div className="col-md-9">
                 <div className="card-body">
-                  <h5 className="card-title">Jesus Fernandez</h5>
+                  <h2 className="card-title">Jesus Fernandez</h2>
                   <p className="card-text">
                     Hola, mi nombre es Jesus Fernandez, soy de Reynosa
                     Tamaulipas Mexico.
                   </p>
                   <p className="card-text">
-                    Soy Fullstack developer. Trabajo como desarrollador de
-                    aplicaciones para una empresa llamada Mega desde el 2013.
+                    Soy <strong>Fullstack developer</strong>. Trabajo como
+                    desarrollador de aplicaciones para una empresa llamada Mega
+                    desde el 2013.
                   </p>
                   <p className="card-text">
                     He estado trabajando en esta empresa por 9 años y a lo largo
@@ -32,8 +33,10 @@ export const AboutPage = () => {
                   </p>
                   <p className="card-text">
                     Dentro de las tecnologias aprendidas puedo destacar:
-                    ASP.net, C#, SQL, IIS, HTML, CSS, Javascript, React, Node
-                    JS, etc.
+                    <strong>
+                      ASP.net, C#, SQL, IIS, HTML, CSS, Javascript, React, Node
+                      JS.
+                    </strong>
                   </p>
                   <p className="card-text">
                     <small className="text-muted">
@@ -62,7 +65,7 @@ export const AboutPage = () => {
       <section className="row pt-4">
         <article className="col">
           <header>
-            <h2>Tecnologias utilizadas</h2>
+            <h2>Tecnologias que he utilizado</h2>
           </header>
         </article>
       </section>
@@ -94,7 +97,7 @@ export const AboutPage = () => {
             <li className="list-group-item">My SQL</li>
           </ul>
         </article>
-        <article className="col-md-4">
+        <article className="col-md-4 pt-3">
           <h4>Repositorios y almacenamiento</h4>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">GitHub</li>
@@ -134,7 +137,7 @@ export const AboutPage = () => {
       </section>
       <section className="row pb-4">
         <article className="col-md-6">
-          <h5>Front End</h5>
+          <h5 className="text-center">FRONTEND</h5>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">
               <strong>bootstrap</strong>: Para el diseño de la aplicacion
@@ -195,7 +198,7 @@ export const AboutPage = () => {
           </ul>
         </article>
         <article className="col">
-          <h5>Back End</h5>
+          <h5 className="text-center">BACKEND</h5>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">
               bcrypt: Para encriptar y comparar contraseñas
@@ -234,11 +237,18 @@ export const AboutPage = () => {
             <li className="list-group-item">
               apollo-server-express: Para crear un servidor y usar
             </li>
-            <li className="list-group-item">qrcode: descripcion</li>
-            <li className="list-group-item">socket.io: descripcion</li>
-            <li className="list-group-item">speakeasy: descripcion</li>
-            <li className="list-group-item">stripe: descripcion</li>
-            <li className="list-group-item">uuid: descripcion</li>
+            <li className="list-group-item">
+              qrcode: Funciona para poder generar codigos QR
+            </li>
+            <li className="list-group-item">
+              socket.io: Para crear un servidor de tiempo real en Node JS
+            </li>
+            <li className="list-group-item">
+              stripe: Para conectar con la tecnologia de Stripe
+            </li>
+            <li className="list-group-item">
+              uuid: Para la generacion de ID's unicos
+            </li>
           </ul>
         </article>
       </section>

@@ -5,6 +5,8 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
+import "./styles/style.css";
+
 const App = () => {
   //   console.log = console.warn = console.error = () => {};
   return <AppRouter />;

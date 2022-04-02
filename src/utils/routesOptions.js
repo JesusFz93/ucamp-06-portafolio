@@ -7,18 +7,19 @@ export const publicRoutes = [
     to: "/home",
     path: "home",
     Component: HomePage,
-    name: "Home",
+    name: "Inicio",
   },
   {
     to: "/about",
     path: "about",
     Component: AboutPage,
-    name: "About",
+    name: "Acerca",
   },
   {
     to: "/contact",
     path: "contact",
     Component: ContactPage,
     name: "Contact",
+    hide: true,
   },
 ];

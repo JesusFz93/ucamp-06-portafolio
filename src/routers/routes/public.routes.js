@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
+import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import { publicRoutes } from "../../utils/routesOptions";
 
@@ -28,6 +29,7 @@ export const PublicRoutes = () => {
             element={<Navigate to={publicRoutes[0]?.to} replace />}
           />
         </Routes>
+        <Footer />
       </div>
     </>
   );
