@@ -1,6 +1,6 @@
 # Portafolio
 
-![Banner](/src/assets/Banner.PNG)
+![Banner](/src/assets/Banner.png)
 
 ## Este es mi portafolio de desarrollo web fullstack en donde me presento con toda la comunidad para dar a conocer mis conocimientos y poder colaborar en proyectos futuros.
 
