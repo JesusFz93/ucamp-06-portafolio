@@ -9,44 +9,39 @@ export const AboutPage = () => {
       <Title clases="text-center" name="About" />
       <section className="row">
         <article className="col">
-          <div className="card mb-3">
-            <div className="row g-0">
-              <div className="col-md-3">
-                <img src={JF} className="img-fluid rounded-start" alt="..." />
-              </div>
-              <div className="col-md-9">
-                <div className="card-body">
-                  <h2 className="card-title">Jesus Fernandez</h2>
-                  <p className="card-text">
-                    Hola, mi nombre es Jesus Fernandez, soy de Reynosa
-                    Tamaulipas Mexico.
-                  </p>
-                  <p className="card-text">
-                    Soy <strong>Fullstack developer</strong>. Trabajo como
-                    desarrollador de aplicaciones para una empresa llamada Mega
-                    desde el 2013.
-                  </p>
-                  <p className="card-text">
-                    He estado trabajando en esta empresa por 9 años y a lo largo
-                    de mi estancia he aprendido y convivido con muchas personas
-                    cuyas historias son muy interesantes.
-                  </p>
-                  <p className="card-text">
-                    Dentro de las tecnologias aprendidas puedo destacar:
-                    <strong>
-                      ASP.net, C#, SQL, IIS, HTML, CSS, Javascript, React, Node
-                      JS.
-                    </strong>
-                  </p>
-                  <p className="card-text">
-                    <small className="text-muted">
-                      Last updated 3 mins ago
-                    </small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <header>
+            <h2>Formacion academica</h2>
+          </header>
+        </article>
+      </section>
+      <section className="row">
+        <article className="col-6">
+          <h4>Ingles</h4>
+          <p>
+            Nuevo Laredo City College
+            <strong> (Feb 2020 - Ago 2021)</strong>
+          </p>
+        </article>
+        <article className="col-6">
+          <h4>Universidad TecMilenio</h4>
+          <p>
+            Maestria en gestion de tecnologias de la informacion
+            <strong> (Ene 2017 - Dic 2018)</strong>
+          </p>
+        </article>
+        <article className="col-6 pt-3">
+          <h4>Universidad Autonoma de Tamaulipas</h4>
+          <p>
+            Ingenieria en sistemas computacionales
+            <strong> (Ago 2010 - Dic 2014)</strong>
+          </p>
+        </article>
+        <article className="col-6 pt-3">
+          <h4>Universidad UTEL</h4>
+          <p>
+            Fullstack Developer
+            <strong> (Sep 2021 - Abr 2022)</strong>
+          </p>
         </article>
       </section>
       <section className="row pt-4">

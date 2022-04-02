@@ -8,11 +8,54 @@ import { TopProjects } from "../../components/TopProjects";
 import html from "../../assets/images/html.png";
 import css from "../../assets/images/css.png";
 import javascript from "../../assets/images/javascript.png";
+import JF from "../../assets/images/JesusFdz.jpg";
 
 export const HomePage = () => {
   return (
     <>
-      <main id="inicio" className="row">
+      <section className="row">
+        <article className="col">
+          <div className="card mb-3">
+            <div className="row g-0">
+              <div className="col-md-3">
+                <img src={JF} className="img-fluid rounded-start" alt="..." />
+              </div>
+              <div className="col-md-9">
+                <div className="card-body">
+                  <h2 className="card-title">Jesus Fernandez</h2>
+                  <p className="card-text">
+                    Hola, mi nombre es Jesus Fernandez, soy de Reynosa
+                    Tamaulipas Mexico.
+                  </p>
+                  <p className="card-text">
+                    Soy <strong>Fullstack developer</strong>. Trabajo como
+                    desarrollador de aplicaciones para una empresa llamada Mega
+                    desde el 2013.
+                  </p>
+                  <p className="card-text">
+                    He estado trabajando en esta empresa por 9 años y a lo largo
+                    de mi estancia he aprendido y convivido con muchas personas
+                    cuyas historias son muy interesantes.
+                  </p>
+                  <p className="card-text">
+                    Dentro de las tecnologias aprendidas puedo destacar:
+                    <strong>
+                      ASP.net, C#, SQL, IIS, HTML, CSS, Javascript, React, Node
+                      JS.
+                    </strong>
+                  </p>
+                  <p className="card-text">
+                    <small className="text-muted">
+                      Last updated 3 mins ago
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <main id="inicio" className="row pt-4">
         <article className="col">
           <div
             id="carouselExampleControls"
